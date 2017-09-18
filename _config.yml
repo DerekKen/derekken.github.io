@@ -3,8 +3,8 @@ title: DerekKen's Blog
 SEOTitle: 邓瑞康的博客 | DerekKen's Blog
 header-img: img/home-bg.jpg
 email: kaneki.ken.11235@gmail.com
-description: "关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
+description: "All about Coding, Soccer and Books  | 邓瑞康，DerekKen，，Undergraduate Student，Senior at Nankai University，南开大学本科在读，Software Engineer，Soccer Lover(Both on the pitch & in front of TV) | 这里是 @DerekKen邓瑞康 的个人博客，与你一起点滴积累，踏实前行。"
+keyword: "DerekKen, 邓瑞康, 热爱足球, 软件工程, 计算机科学, DerekKen邓瑞康, @SaintDante, 互联网, 邓瑞康的博客, DerekKen Blog, 博客, 个人网站,"
 url: "https://DerekKen.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -13,9 +13,9 @@ baseurl: ""                             # for example, '/blog' if your blog host
 # SNS settings
 RSS: false
 weibo_username:     SaintDante
-zhihu_username:     huxpro
-github_username:    huxpro
-twitter_username:   huxpro
+zhihu_username:     Sasaki Haise
+github_username:    DerekKen
+#twitter_username:   huxpro
 #facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
 
