@@ -26,7 +26,7 @@ twitter_username:   DerekKen
 highlighter: rouge
 permalink: pretty
 paginate: 8
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
@@ -52,7 +52,7 @@ disqus_username: DerekKen
 
 # Netease setttings
 # netease_comment: false
-netease_comment: true
+# netease_comment: true
 
 
 
