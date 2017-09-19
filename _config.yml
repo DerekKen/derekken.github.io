@@ -15,7 +15,7 @@ RSS: false
 weibo_username:     DerekKen
 zhihu_username:     DerekKen
 github_username:    DerekKen
-#twitter_username:   huxpro
+twitter_username:   DerekKen
 #facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
 
@@ -26,7 +26,7 @@ github_username:    DerekKen
 highlighter: rouge
 permalink: pretty
 paginate: 8
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
