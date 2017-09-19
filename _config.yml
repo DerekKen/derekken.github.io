@@ -57,8 +57,8 @@ disqus_username: DerekKen
 
 
 # Analytics settings
-# Baidu Analytics 
-# ba_track_id: [your track id]
+# Baidu Analytics
+ba_track_id: 96c664732516db4d16de28619ed4d523
 
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
