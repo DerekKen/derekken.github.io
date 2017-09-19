@@ -86,31 +86,31 @@ service-worker: true
 
 
 # Friends
-friends: [
-    {
-        title: "冯总",
-        href: "https://weibo.com/u/1630913862"
-    },{
-        title: "哈利",
-        href: "https://weibo.com/u/5376588694"
-    },{
-        title: "陈龙",
-        href: "https://weibo.com/u/1919548964"
-    },{
-        title: "胖娃儿",
-        href: "https://user.qzone.qq.com/310988425"
-    },{
-        title: "敬铭",
-        href: "https://user.qzone.qq.com/759049225"
-    },{
-        title: "黄叔(su)叔(ru)",
-        href: "https://user.qzone.qq.com/594403295"
-    },{
-        title: "汀兰",
-        href: "https://user.qzone.qq.com/934919206"
-    },{
-        title: "Streammy°",
-        href: "https://user.qzone.qq.com/864008019"
-    }
+# friends: [
+    # {
+        # title: "冯总",
+        # href: "https://weibo.com/u/1630913862"
+    # },{
+        # title: "哈利",
+        # href: "https://weibo.com/u/5376588694"
+    # },{
+        # title: "陈龙",
+        # href: "https://weibo.com/u/1919548964"
+    # },{
+        # title: "胖娃儿",
+        # href: "https://user.qzone.qq.com/310988425"
+    # },{
+        # title: "敬铭",
+        # href: "https://user.qzone.qq.com/759049225"
+    # },{
+        # title: "黄叔(su)叔(ru)",
+        # href: "https://user.qzone.qq.com/594403295"
+    # },{
+        # title: "汀兰",
+        # href: "https://user.qzone.qq.com/934919206"
+    # },{
+        # title: "Streammy°",
+        # href: "https://user.qzone.qq.com/864008019"
+    # }
     
-]
+# ]
