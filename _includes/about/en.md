@@ -5,7 +5,7 @@
 
 Hi, I am *DerekKen* (Ruikang Deng), an undergraduate student at [Nankai University](http://www.nankai.edu.cn), majoring in software engineering. 
 
- Currently I am an intern at [Nankai-Baidu Joint Laboratory](http://nbjl.nankai.edu.cn), focusing on parallel computing.
+ Currently I am an intern at [Nankai-Baidu Joint Laboratory](http://nbjl.nankai.edu.cn), focusing on parallel computing and HPC.
 
 Here is my portfolio: 👉  [Portfolio](/portfolio)、[Github](http://github.com/DerekKen ).
 
