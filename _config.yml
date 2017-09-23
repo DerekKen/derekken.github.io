@@ -84,9 +84,9 @@ chrome-tab-theme-color: "#000000"
 service-worker: true
 
 
-
 # Friends
-# friends: [
+friends: [
+
     # {
         # title: "冯总",
         # href: "https://weibo.com/u/1630913862"
@@ -113,4 +113,9 @@ service-worker: true
         # href: "https://user.qzone.qq.com/864008019"
     # }
     
-# ]
+    {
+         title: "Cuppix",
+         href:  "https://music.163.com/#/user/home?id=253527733"
+    }
+    
+ ]
