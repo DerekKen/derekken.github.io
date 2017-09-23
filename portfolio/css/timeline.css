@@ -181,6 +181,50 @@ body, html {
 	background-size: 22px;
 }
 
+.i-android-colorful:before{
+	content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url("../images/android_google_icon.png") 50% 50% no-repeat;
+    background-size: 32px;
+}
+
+.i-android:before{
+	content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url("../images/android_icon.png") 50% 50% no-repeat;
+    background-size: 32px;
+}
+
+.i-android-studio:before{
+	content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url("../images/android_studio_icon.png") 50% 50% no-repeat;
+    background-size: 32px;
+}
+
+.i-google-play:before{
+	content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url("../images/google_play_icon.png") 50% 50% no-repeat;
+    background-size: 30px;
+}
+
+.i-unity:before{
+	content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url("../images/unity_128_128.png") 50% 50% no-repeat;
+    background-size: 30px;
+}
 /******* Hux Branch *****/
 
 /* navbar - dark mode */
