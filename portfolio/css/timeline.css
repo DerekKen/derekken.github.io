@@ -225,6 +225,15 @@ body, html {
     background: url("../images/unity_128_128.png") 50% 50% no-repeat;
     background-size: 45px;
 }
+
+.i-mrbayes:before{
+	content: "";
+    display: block;
+    width: 108px;
+    height: 54px;
+    background: url("../images/mrbayes_logo.png") 50% 50% no-repeat;
+    background-size: 108px;
+}
 /******* Hux Branch *****/
 
 /* navbar - dark mode */
