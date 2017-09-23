@@ -1,8 +1,8 @@
 ---
 layout:     post
 comments:   true
-title:      "1A课程笔记——StudyJamsChina2017"
-subtitle:   "StudyJams China 2017-1A Course Note"
+title:      "1A课程笔记"
+subtitle:   ""
 date:       2017-05-07 07:14:00
 author:     "Derek Ken"
 header-img: "img/in-post/post_studyjams_china2017/course_1a.jpg"
