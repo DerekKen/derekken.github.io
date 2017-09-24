@@ -59,10 +59,10 @@ tags:
 ## **ImageView**
  - 属性src指定图像来源(绝对路径、相对路径均可)，layout_width、layout_height指定了该控件的宽高。
  - 属性scaleType通常的取值可以有center和centerCrop。 centerCrop可以达到full-bleed显示的效果，大多数情况下都比较美观，所以裁剪(crop-off)是可以接受的。
-![Fig1. centerCrop_cake的显示效果](http://images2015.cnblogs.com/blog/1161127/201705/1161127-20170507070509054-121512628.png)
+![Fig1. centerCrop_cake的显示效果](http://i345.photobucket.com/albums/p387/DerekKen_9/1_zps2zzqs3p3.png)
 <div style="text-align:center"><b>图1.</b> centerCrop_cake的显示效果 </div>
 <br /><br />
-![Fig2. center_cake的显示效果](http://images2015.cnblogs.com/blog/1161127/201705/1161127-20170507070352601-989666601.png)
+![Fig2. center_cake的显示效果](http://i345.photobucket.com/albums/p387/DerekKen_9/1_zps2zzqs3p3.png)
 <div style="text-align:center"><b>图2.</b> center_cake的显示效果</div>
 
 
