@@ -1,6 +1,5 @@
 ---
 layout:     post
-comments:   true
 title:      "1A课程笔记 Google StudyJams China 2017"
 subtitle:   "Course 1A Notes of Google StudyJams China 2017"
 date:       2017-05-07 07:14:00
@@ -68,18 +67,14 @@ tags:
 - <u>[Google Material Design](https://material.io/guidelines/style/color.html#color-color-palette) </u>提供了对字体以及颜色选取等方面的参考，此外还有很多UI设计相关的材料。
 - <u>[Android for All术语表](https://s3.cn-north-1.amazonaws.com.cn/static-documents/nd803/Android+for+All+%EF%BC%8D+Vocabulary+Glossary.pdf)</u> 对Android术语图文并茂的解释。
 
-[1]: https://twitter.com/vuejs/status/834087199008239619
-[2]: https://developers.google.com/web/progressive-web-apps/
-[3]: https://blog.twitter.com/2017/how-we-built-twitter-lite
-[4]: https://medium.com/progressive-web-apps/building-flipkart-lite-a-progressive-web-app-2c211e641883
-[5]: https://medium.com/engineering-housing/progressing-mobile-web-fac3efb8b454
-[6]: https://shop.polymer-project.org/
-[7]: https://developers.google.com/web/fundamentals/performance/prpl-pattern/
-[8]: https://calendar.perfplanet.com/2013/big-bad-preloader/
-[9]: https://w3c.github.io/ServiceWorker/v1/
-[10]: https://webpack.github.io/
-[11]: https://medium.com/@Huxpro/how-does-sw-precache-works-2d99c3d3c725
-[12]: https://developers.google.com/web/updates/2015/11/app-shell
-[13]: https://googlechrome.github.io/sw-toolbox/
+---
 
+[1]: http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/ "Isomorphic JavaScript: The Future of Web Apps"
 
+[2]: https://medium.com/@mjackson/universal-javascript-4761051b7ae9#.unrzyz3b2 "Universal JavaScript"
+
+[3]: https://en.wikipedia.org/wiki/Ajax_(programming) "Ajax - Wikipedia"
+
+[4]: https://en.wikipedia.org/wiki/Responsive_web_design "Responsive Web Design - Wikipedia"
+
+[5]: http://www.adobe.com/products/air.html "Adobe AIR Application"
