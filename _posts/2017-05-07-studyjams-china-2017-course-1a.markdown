@@ -69,12 +69,8 @@ tags:
 
 ---
 
-[1]: http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/ "Isomorphic JavaScript: The Future of Web Apps"
+[1]: https://classroom.udacity.com/me "Udacity Android Courses"
 
-[2]: https://medium.com/@mjackson/universal-javascript-4761051b7ae9#.unrzyz3b2 "Universal JavaScript"
+[2]: https://www.studyjamscn.com/thread-20263-1-1.html "Google StudyJams China 2017"
 
-[3]: https://en.wikipedia.org/wiki/Ajax_(programming) "Ajax - Wikipedia"
-
-[4]: https://en.wikipedia.org/wiki/Responsive_web_design "Responsive Web Design - Wikipedia"
-
-[5]: http://www.adobe.com/products/air.html "Adobe AIR Application"
+[3]: http://www.cnblogs.com/DerekKen/p/6819390.html "DerekKen的博客园"
