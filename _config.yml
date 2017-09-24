@@ -51,10 +51,11 @@ kramdown:
 disqus_username: DerekKen
 
 # Netease setttings
-# netease_comment: false
+netease_comment: false
 # netease_comment: true
 
-
+# Uyan setttings
+uyan_comment: true
 
 # Analytics settings
 # Baidu Analytics
