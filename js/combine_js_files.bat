@@ -1,0 +1,1 @@
+copy jquery.min.js+bootstrap.min.js+hux-blog.min.js+snackbar.js+sw-registration.js t.js /b
