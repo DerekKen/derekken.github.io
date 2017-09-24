@@ -1,8 +1,8 @@
 ---
 layout:     post
 comments:   true
-title:      "1A课程笔记"
-subtitle:   "Upgrading Ele.me to Progressive Web App"
+title:      "1A课程笔记_Google StudyJams China 2017"
+subtitle:   "Course 1A Notes-Google StudyJams China 2017"
 date:       2017-05-07 07:14:00
 author:     "Derek Ken"
 header-img: "img/in-post/post_studyjams_china2017/course_1a.jpg"
