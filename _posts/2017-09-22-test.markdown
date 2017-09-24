@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "1A课程笔记 StudyJams China 2017"
-subtitle:   "Course 1A Notes of StudyJams China 2017"
-date:       2017-05-07 07:14:00
+title:      "test测试"
+subtitle:   "Test"
+date:       2017-09-22 01:14:00
 author:     "Derek Ken"
 header-img: "img/in-post/post_studyjams_china2017/course_1a.jpg"
 header-mask: 0.3
