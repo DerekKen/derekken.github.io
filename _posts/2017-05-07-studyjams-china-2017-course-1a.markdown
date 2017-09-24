@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "1A课程笔记 StudyJams China 2017"
-subtitle:   "Course 1A Notes of StudyJams China 2017"
+title:      "Android中的布局(上):1A课程笔记 StudyJams China 2017"
+subtitle:   "Layouts in Android:1A Notes of StudyJams China 2017"
 date:       2017-05-07 07:14:00
 author:     "Derek Ken"
 header-img: "img/in-post/post_studyjams_china2017/course_1a.jpg"
