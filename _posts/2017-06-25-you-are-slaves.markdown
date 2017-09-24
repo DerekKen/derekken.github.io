@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Test"
+title:      "1A课程笔记-StudyJamsChina2017"
 subtitle:   "发嘎嘎刚"
 date:       2017-06-24 12:00:00
 author:     "Hux"

@@ -10,9 +10,8 @@ header-mask: 0.3
 catalog:    true
 tags:
     - Android
-	- Google
+    - Google
     - StudyJams
-    - 课程笔记
 ---
 
 
