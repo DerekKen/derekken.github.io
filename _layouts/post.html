@@ -215,8 +215,10 @@ layout: default
 
 
 <!-- GitTalk 社会化评论系统代码 -->
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<style>
+<script>
 const gitalk = new Gitalk({
   clientID: '776e4dec8e0562dd50eb',
   clientSecret: '15e4cd722d4c8c5caafa7b094a7298b83ee64ecf',
@@ -231,4 +233,4 @@ const gitalk = new Gitalk({
 })
 
 gitalk.render('gitalk-container')
-</style>
+</script>
