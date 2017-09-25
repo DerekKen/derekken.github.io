@@ -4,7 +4,7 @@ title:      "Android 生日贺卡应用:1C课程笔记 StudyJams China 2017"
 subtitle:   "Android Birthday Card App:Course 1C Notes of StudyJams China 2017"
 date:       2017-05-08 02:42
 author:     "Derek Ken"
-header-img: "img/in-post/post_studyjams_china2017/course_1b.jpeg"
+header-img: "img/in-post/post_studyjams_china2017/course_1c.jpg"
 header-mask: 0.35
 catalog:    true
 comment:    true
@@ -59,8 +59,8 @@ android:src="@drawable/your_resrc_file_name_without_file_extension"
 - 注意，属性**layout_width**、**layout_height**在这里是**必要**的，因为这两个属性能够影响元素占据的屏幕空间。<br>
 举例来说，如果一个TextView的宽度属性被设置为match_parent，那么你是**不能**将此TextView中的文本(占据的屏幕空间不到一行)设置到一行的最右边的：
 
- ![Fig3](http://images2015.cnblogs.com/blog/1161127/201705/1161127-20170508021330363-1530818997.png)
-&ensp; &ensp;  &ensp; **图3.**layout_width&height在设定元素位置时的必要性 
+ ![Fig3](http://owsep4p7v.bkt.clouddn.com/1C_3_layout_width&height%E5%9C%A8%E8%AE%BE%E5%AE%9A%E5%85%83%E7%B4%A0%E4%BD%8D%E7%BD%AE%E6%97%B6%E7%9A%84%E5%BF%85%E8%A6%81%E6%80%A7.png)
+<div style="text-align:center"><b>图3.</b>layout_width&height在设定元素位置时的必要性 </div>
 
 ## **设置贺卡中的图片**
 - 为了使图片占满整个手机屏幕，对应的ImageView的宽高都设置成wrap_content
@@ -109,9 +109,9 @@ android:textStyle="bold"
 ## **效果展示**
 - 完成以上的步骤之后，最后自己完成的生日贺卡应用在手机上运行的效果如图所示：
  
- ![Fig4](http://images2015.cnblogs.com/blog/1161127/201705/1161127-20170508021815894-368428144.jpg)
+ ![Fig4](http://owsep4p7v.bkt.clouddn.com/1C_4_%E8%BF%90%E8%A1%8C%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA.jpg)
 
-&ensp; &ensp;  &ensp; **图4.**生日贺卡App运行效果展示
+<div style="text-align:center"><b>图4.</b>生日贺卡App运行效果展示</div>
 
 ---
 
