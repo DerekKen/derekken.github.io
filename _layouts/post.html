@@ -99,20 +99,39 @@ layout: default
 		const gitalk = new Gitalk({
 		  clientID: '776e4dec8e0562dd50eb',
 		  clientSecret: '15e4cd722d4c8c5caafa7b094a7298b83ee64ecf',
-		  repo: 'DerekKen.github.io',
+		  // repo: 'DerekKen.github.io',
+		  repo: 'DerekKen.blog.comments',
 		  owner: 'DerekKen',
 		  admin: ['DerekKen'],
 		  // facebook-like distraction free mode
 		  distractionFreeMode: false,
-		  labels: ['Gitalk comments of DerekKen Blog','Gitalk','Gitalk Comments'],
+		 // labels: ['Gitalk comments of DerekKen Blog','Gitalk','Gitalk Comments'],
 		  language: 'en',
-		  perPage: 32
+		  perPage: 32,
 		})
-
 		gitalk.render('gitalk-container')
 		</script>
 		<!-- GitTalk 社会化评论系统代码 end -->
 		
+		
+		<!-- Gitment 社会化评论系统代码 begin-->
+		<div id="gitment-container"></div>
+		<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+		<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+		<script>
+		var gitment = new Gitment({
+		  //id: '页面 ID', // 可选。默认为 location.href
+		  owner: 'DerekKen',
+		  // repo: 'DerekKen.github.io',
+		  repo: 'DerekKen.blog.comments',
+		  oauth: {
+			client_id: '761b46e14d7cc0b740ad',
+			client_secret: '083c96e8a1da8928aa78da4141db74ecc6495846',
+		  },
+		})
+		gitment.render('gitment-container')
+		</script>
+		<!-- Gitment 社会化评论系统代码 end-->
 		
 		{% if site.uyan_comment %}		 
 		<!-- UY 友言评论框 BEGIN  -->
@@ -239,19 +258,3 @@ layout: default
 
 
 
-<!-- Gitment 社会化评论系统代码 -->
-<!-- <div id="gitment-container"></div> -->
-<!-- <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css"> -->
-<!-- <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script> -->
-<!-- <script> -->
-<!-- var gitment = new Gitment({ -->
-  <!-- id: '页面 ID', // 可选。默认为 location.href -->
-  <!-- owner: '你的 GitHub ID', -->
-  <!-- repo: '存储评论的 repo', -->
-  <!-- oauth: { -->
-    <!-- client_id: '你的 client ID', -->
-    <!-- client_secret: '你的 client secret', -->
-  <!-- }, -->
-<!-- }) -->
-<!-- gitment.render('gitment-container') -->
-<!-- </script> -->
