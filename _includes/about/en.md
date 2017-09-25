@@ -3,7 +3,7 @@
 > Life is    about creating yourself.
 
 
-Hi, I am *DerekKen* (Ruikang Deng), an undergraduate student at [Nankai University](http://www.nankai.edu.cn), majoring in software engineering. 
+Hi, I am *DerekKen* (Ruikang Deng), an undergraduate student at [Nankai University](http://www.nankai.edu.cn), soccer devotee(both on the pitch & in front of the screen), majoring in software engineering. 
 
  Currently I am an intern at [Nankai-Baidu Joint Laboratory](http://nbjl.nankai.edu.cn), focusing on parallel computing and HPC.
 
