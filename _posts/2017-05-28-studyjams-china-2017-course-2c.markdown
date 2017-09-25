@@ -5,7 +5,7 @@ subtitle:   "Scoreboard App:2C Notes of StudyJams China 2017"
 date:       2017-05-28 15:27:00
 author:     "Derek Ken"
 header-img: "img/in-post/post_studyjams_china2017/course_2c.jpg"
-header-mask: 0.3
+header-mask: 0.45
 catalog:    true
 comment:    true
 tags:
