@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Android 创建交互式应用:2A课程笔记 StudyJams China 2017"
-subtitle:   "Android Interactive App:Course 2A Notes of StudyJams China 2017"
-date:       2017-05-28 00:32
+title:      "Android 创建交互式应用(上):2A课程笔记 StudyJams China 2017"
+subtitle:   "Android Creating an Interactive App:Course 2A Notes of StudyJams China 2017"
+date:       2017-05-28 00:32:00
 author:     "Derek Ken"
 header-img: "img/in-post/post_studyjams_china2017/course_2a.jpg"
 header-mask: 0.35
@@ -39,27 +39,28 @@ int numberOfCoffees = 2;
  
  
 ## **练习**	
-- 选择视图：<br>
-&ensp;&ensp;&ensp; 1. 列出自己打算使用的所有视图；<br>
-&ensp;&ensp;&ensp; 2. 确定视图位置(比较关键的是确定使用哪种视图组作为根视图)；<br>
-&ensp;&ensp;&ensp; 3. 设置视图样式(textSize，FontFamily等属性)；<br>
+- 选择视图：<br />
+&ensp;&ensp;&ensp; 1. 列出自己打算使用的所有视图；<br />
+&ensp;&ensp;&ensp; 2. 确定视图位置(比较关键的是确定使用哪种视图组作为根视图)；<br />
+&ensp;&ensp;&ensp; 3. 设置视图样式(textSize，FontFamily等属性)；<br />
 
 - 为按钮添加事件响应函数：对于单击事件，在XML的某个按钮标签中引入属性onClick，属性取值为Java代码中对应的方法的名字。这样，就可以把单击事件处理函数与该按钮绑定，实现交互。
 
 - 使用伪代码，使自己的思路可以更加清晰。 **不至于迷失在代码实现的繁琐细节之中**。
 
-- 调试练习：<br>
-&ensp;&ensp;&ensp; 1. DEBUG：指消除程序中的BUG的调试过程。<br>
-&ensp;&ensp;&ensp; 2. Compile Time Error：编译时错误，包括常见的语法错误(代码不符合语言的语法规定，比如未匹配的括号、一条语句的最后缺少分号等等)、语义错误(比如操作符与操作数类型不匹配)等；还包括找不到所引用的文件(C++中的.h文件、lib静态库、dll动态库，Java中的Jar包)的错误。<br>
-&ensp;&ensp;&ensp; 3. Runtime Time Error：运行时错误，包括由逻辑错误、数组访问越界、空指针等在运行时引起的错误。此类错误一般比编译时错误更难解决，特别是逻辑错误。所以，在写具有较复杂逻辑的代码前，程序员自身必须把整个程序执行的流程想清楚。否则，调试代码的时间会远远超过想清楚之前直接写代码"节省"下的时间。<br>
-&ensp;&ensp;&ensp; 4. System Log: 系统日志，Android开发中常用logcat这个工具来分层次、分类型地显示不同等级的日志，方便程序员查找感兴趣的信息(错误信息或者更琐碎、更底层的信息)。<br>
-&ensp;&ensp;&ensp; 5. Stacktrace: 调用栈的追踪，非常有用的一个特性，能够显示函数的调用关系(按照栈的数据结构，最后调用的函数显示在栈顶，即最上方)。 Stacktrace常常用来分析异常链，查找错误的源头，能够直接定位到代码中引起错误的行。<br>
+- 调试练习：<br />
+&ensp;&ensp;&ensp; 1. DEBUG：指消除程序中的BUG的调试过程。<br />
+&ensp;&ensp;&ensp; 2. Compile Time Error：编译时错误，包括常见的语法错误(代码不符合语言的语法规定，比如未匹配的括号、一条语句的最后缺少分号等等)、语义错误(比如操作符与操作数类型不匹配)等；还包括找不到所引用的文件(C++中的.h文件、lib静态库、dll动态库，Java中的Jar包)的错误。<br />
+&ensp;&ensp;&ensp; 3. Runtime Time Error：运行时错误，包括由逻辑错误、数组访问越界、空指针等在运行时引起的错误。此类错误一般比编译时错误更难解决，特别是逻辑错误。所以，在写具有较复杂逻辑的代码前，程序员自身必须把整个程序执行的流程想清楚。否则，调试代码的时间会远远超过想清楚之前直接写代码"节省"下的时间。<br />
+&ensp;&ensp;&ensp; 4. System Log: 系统日志，Android开发中常用logcat这个工具来分层次、分类型地显示不同等级的日志，方便程序员查找感兴趣的信息(错误信息或者更琐碎、更底层的信息)。<br />
+&ensp;&ensp;&ensp; 5. Stacktrace: 调用栈的追踪，非常有用的一个特性，能够显示函数的调用关系(按照栈的数据结构，最后调用的函数显示在栈顶，即最上方)。 Stacktrace常常用来分析异常链，查找错误的源头，能够直接定位到代码中引起错误的行。<br />
 
-- 全局变量 or 局部变量？：<br> 
-&ensp;&ensp;&ensp; 1. global variable：全局变量，在整个源文件中都有效。<br>
-&ensp;&ensp;&ensp; 2. local variable：局部变量，在定义该变量的上下文范围内有效；在该范围之外，该变量的生命周期结束，不能够再被引用。<br>
-&ensp;&ensp;&ensp; 3. variable scope：变量作用域，分为全局的与局部的，具体解释如上。<br>
-注意：在Android Studio中，默认编辑器设置下，全局变量名会加粗显示，便于程序员区分。了解这一点之，可以减少了使用同名局部变量覆盖(override,hide)全局变量而引入BUG的可能。
+- 全局变量 or 局部变量？：<br /> 
+&ensp;&ensp;&ensp; 1. global variable：全局变量，在整个源文件中都有效。<br />
+&ensp;&ensp;&ensp; 2. local variable：局部变量，在定义该变量的上下文范围内有效；在该范围之外，该变量的生命周期结束，不能够再被引用。<br />
+&ensp;&ensp;&ensp; 3. variable scope：变量作用域，分为全局的与局部的，具体解释如上。<br />
+
+-注意:在Android Studio中，默认编辑器设置下，全局变量名会加粗显示，便于程序员区分。了解这一点之，可以减少了使用同名局部变量覆盖(override,hide)全局变量而引入BUG的可能。
 
 ---
 
