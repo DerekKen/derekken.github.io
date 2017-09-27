@@ -6,7 +6,7 @@
     cursor: pointer;
     z-index: 99998;
     right: 50%;
-    margin-left: 620px;
+    margin-right: -620px;
 }
   
 /* 小火箭悬停特效 */

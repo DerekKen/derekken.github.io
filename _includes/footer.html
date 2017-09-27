@@ -308,19 +308,20 @@ var _hmt = _hmt || [];
 <!-- Back to Top 回到顶部按钮 begin-->
 <!-- 返回顶部小火箭的HTML结构如下： -->
 <div id="shangxia2">
-  <span id="gotop">
-    <img src="img/huojian.svg" alt="返回顶部小火箭" width="48" height="48" >
-  </span>
+	<span id="gotop1">
+		<img src="img/huojian.svg" alt="返回顶部小火箭" width="48" height="48">
+		<!-- <img src="img/rocked.png" alt="返回顶部小火箭"> -->
+	</span>
 </div>
 <!-- Back to Top Little Rocket CSS 返回顶部小火箭 -->
 <link rel="stylesheet" href="{{ "/css/little-rocket.css" | prepend: site.baseurl }}">
 <!-- 基于gsap 引入相关js代码 -->
-<!-- <script src="js/jquery.min.js"></script> -->
+<!-- 在别处已经引用了jquery.min.js的代码 <script src="js/jquery.min.js"></script> -->
 <script src="http://cdn.bootcss.com/gsap/1.19.0/TweenMax.min.js"></script>
 <script src="http://cdn.bootcss.com/gsap/1.19.0/plugins/ScrollToPlugin.min.js"></script>
 <!-- 在页面DOM元素加载完毕之后，通过下面的方法来初始化该返回顶部特效。 -->
 <script>
-$("#gotop").click(function(e) {
+$("#gotop1").click(function(e) {
    TweenMax.to(window, 1.5, {scrollTo:0, ease: Expo.easeInOut});
    var huojian = new TimelineLite();
     huojian.to("#gotop1", 1, {rotationY:720, scale:0.6, y:"+=40", ease:  Power4.easeOut})
