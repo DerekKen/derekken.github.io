@@ -1,17 +1,19 @@
-@media (min-width: 1200px) {
-  .post-container,
+@media (min-width: 1600px) {
+  .post-container{
+	  margin-right:40%
+  }
   .sidebar-container {
     padding-right: 5%;
   }
 }
 @media (min-width: 1024px) {
   .post-container {
-    padding-right: 5%;
-	width: 1024px;
+    padding-right: 40%;
+	width: 1350px;
   }
 }
 .sidebar-container {
-  color: #f4511e;
+  color: #0097A7;
   font-size: 15px;
 }
 .sidebar-container h5 {
@@ -50,15 +52,16 @@
   padding-left: 0px;
 }
 .catalog-container {
-  margin-right: 768px;
+  margin-right: 1024px;
 }
 .side-catalog {
   display: block;
   overflow: auto;
   height: 100%;
-  padding-top: 40px;
+  padding-top: 68px;
   padding-bottom: 40px;
-  width: 195px;
+  margin-right: 1024px;
+  width: 168px;
 }
 .side-catalog.fixed {
   position: fixed;
