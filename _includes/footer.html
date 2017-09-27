@@ -308,8 +308,9 @@ var _hmt = _hmt || [];
 <!-- Back to Top 回到顶部按钮 begin-->
 <!-- 返回顶部小火箭的HTML结构如下： -->
 <div id="shangxia2">
+<!-- little-rocket.css：使用的id为gotop1，下面的初始化代码也使用的是gotop1 -->
 	<span id="gotop1">
-		<img src="img/huojian.svg" alt="返回顶部小火箭" width="48" height="48">
+		<img src="img/huojian.svg" width="48" height="48">
 		<!-- <img src="img/rocked.png" alt="返回顶部小火箭"> -->
 	</span>
 </div>
@@ -321,6 +322,7 @@ var _hmt = _hmt || [];
 <script src="http://cdn.bootcss.com/gsap/1.19.0/plugins/ScrollToPlugin.min.js"></script>
 <!-- 在页面DOM元素加载完毕之后，通过下面的方法来初始化该返回顶部特效。 -->
 <script>
+// 返回顶部，绑定gotop1图标和gotop2文字事件
 $("#gotop1").click(function(e) {
    TweenMax.to(window, 1.5, {scrollTo:0, ease: Expo.easeInOut});
    var huojian = new TimelineLite();
@@ -328,5 +330,27 @@ $("#gotop1").click(function(e) {
     .to("#gotop1", 1, {y:-1000, opacity:0, ease:  Power4.easeOut}, 0.6)
     .to("#gotop1", 1, {y:0, rotationY:0, opacity:1, scale:1, ease: Expo.easeOut, clearProps: "all"}, "1.4");
 });
+
+// 默认速度
+//$("#gotop6").click(function() {
+//TweenMax.to(window, 1, {scrollTo:0});
+//});
+
+
+// 弹跳球式滚动底部 .box2是要滚动地方的id或者锚点
+// $("#gotop5").click(function() {
+//TweenMax.to(window, 2, {scrollTo:".box2", ease:Bounce.easeOut});
+//});
+ 
+// 以1秒慢快慢的速度滚动顶部
+//$("#gotop3").click(function() {
+//TweenMax.to(window, 1, {scrollTo:0, ease:Expo.easeInOut});
+// });
+
+// 以1.5秒快慢快的速度滚动顶部
+//$("#gotop4").click(function() {
+//TweenMax.to(window, 1.5, {scrollTo:0, ease:SlowMo.ease.config(0.7, 0.7, false)});
+//});
+
 </script>
 <!-- Back to Top 回到顶部按钮 end-->
