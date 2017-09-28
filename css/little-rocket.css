@@ -12,7 +12,7 @@
 /* 小火箭悬停特效 */
   
 #gotop1:hover {
-    animation: rubberBand 1s;
+    animation: rubberBand 0.75s;
 }
   
 @keyframes rubberBand {
