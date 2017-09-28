@@ -147,11 +147,14 @@ friends: [
     
     
     {
-         title: "粗神_Cuppix",
+         title: "粗神Cuppix的音乐工作室",
          href: "https://music.163.com/#/user/home?id=253527733"
     },{
-         title: "此博客支持emoji:cheat sheet",
+         title: "本博客支持emoji，表情代码戳这里",
          href: "https://www.webpagefx.com/tools/emoji-cheat-sheet"
+    },{
+         title: "emoji supported，here is a cheat-sheet",
+         href: "https://www.webpagefx.com/tools/emoji-cheat-sheet"       
     }
 
  ]
