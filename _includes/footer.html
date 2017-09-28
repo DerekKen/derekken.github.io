@@ -80,7 +80,7 @@
                     {% endif %}
                 </ul>
                 <p class="copyright text-muted">
-                    Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
+                    Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}<br />
                     <!-- <br> -->
                     <!-- Theme Forked From <a href="http://huangxuan.me">Hux</a>  -->
                     <!-- <iframe -->
@@ -88,6 +88,8 @@
                         <!-- frameborder="0" scrolling="0" width="100px" height="20px" -->
                         <!-- src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" > -->
                     <!-- </iframe> -->
+					<font size="2px">为了更好的浏览体验，推荐使用<b>Chrome浏览器</b>，<b>或者</b>将页面缩放比例调至125%(<b>按住Ctrl(Cmd) + 滑动鼠标滚轮</b>)。<br />
+					For better browsing experience, <b>Google Chrome</b> recommended, <b>or</b> try scaling the page up to 125%(<b>Holding Ctrl(Cmd) + scrolling mousewheel</b>).</font>
                 </p>
             </div>
         </div>
@@ -323,7 +325,7 @@ var _hmt = _hmt || [];
 <script>
 // 返回顶部，绑定gotop1图标和gotop2文字事件
 $("#gotop1").click(function(e) {
-   TweenMax.to(window, 1.5, {scrollTo:0, ease: Expo.easeInOut});
+   TweenMax.to(window, 0.75, {scrollTo:0, ease: Expo.easeInOut});
    var huojian = new TimelineLite();
     huojian.to("#gotop1", 1, {rotationY:720, scale:0.6, y:"+=40", ease:  Power4.easeOut})
     .to("#gotop1", 1, {y:-1000, opacity:0, ease:  Power4.easeOut}, 0.6)

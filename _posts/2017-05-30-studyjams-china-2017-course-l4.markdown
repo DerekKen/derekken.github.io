@@ -20,7 +20,7 @@ tags:
 ## **Firebase简要介绍**
 
 - Firebase的各个功能
-  - **Firebase Analytics**对推送通知分析、运行性能分析、崩溃报告(兼容性分析)、受众群体、不同人群对APP的访问频率、平均盈利分析等报告进行了整合，方便开发人员了解所发布的App在市场上的推广效果、遇到的问题、用户反馈，并作出相应的改进。I give this plugin two :+1:!
+  - **Firebase Analytics**对推送通知分析、运行性能分析、崩溃报告(兼容性分析)、受众群体、不同人群对APP的访问频率、平均盈利分析等报告进行了整合，方便开发人员了解所发布的App在市场上的推广效果、遇到的问题、用户反馈，并作出相应的改进。
 	    ![1](http://owsep4p7v.bkt.clouddn.com/l4_0001_Analytics.png)
 
 
