@@ -2,7 +2,7 @@
 #gotop1 {
     width: 80px;
     position: fixed;
-    bottom: 90px;
+    bottom: 50px;
     cursor: pointer;
     z-index: 99998;
     /*right: 50%;

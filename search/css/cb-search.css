@@ -67,7 +67,7 @@
 #cb-search-btn{
     position: fixed;
 	right: 64px;
-    bottom: 168px;
+    bottom: 128px;
     cursor: pointer;
     z-index: 99;
 }
