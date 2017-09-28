@@ -10,6 +10,7 @@
 			.cb-search-tool ul{
                  width: 70% ;
                  white-space:nowrap;
+				 position:fixed;
                  overflow:hidden;
                  text-overflow: ellipsis;
              }
@@ -26,11 +27,12 @@
                 height: 50px;
                 background-color: #eee;
                 color: black;
-                opacity: 1.0;
+                /* opacity: 1.0; */
+                 opacity: 0.75; 
             }
         }
 
-        @media screen and (max-width: 767px) {
+        @media screen and (max-width: 768px) {
             .dropdown-menu {
 				position:relative;
                 float: none;
@@ -41,6 +43,7 @@
 			.cb-search-tool ul{
 				width: 96% ;
 				white-space:nowrap; 
+				position:fixed;
 				overflow:hidden; 
 				text-overflow: ellipsis;
 			}
