@@ -47,8 +47,8 @@ tags:
 - 声明String类型的变量 <br />
 &ensp;&ensp;&ensp;  a)变量取名：尽量做到“见名知意”; <br />
 &ensp;&ensp;&ensp;  b)转义字符(escape sequence)：如果想在字符串字面值中显示一些特殊的字符(换行、回车、制表符等)，需要在字面值中使用转义字符，如图1所示。<br />
-<center> ![Fig1. 转义字符](http://images2015.cnblogs.com/blog/1161127/201705/1161127-20170528021359266-198222842.png)</center>
- <center>**图1.** 转义字符 </center>
+![Fig1. 转义字符](http://owsep4p7v.bkt.clouddn.com/2b_escape_trails.png)
+<div style="text-align:center"><b>图1.</b> 转义字符 </div>
 <br /><br />
 
 - String Concatenation_字符串拼接： <br />

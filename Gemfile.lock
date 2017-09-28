@@ -212,6 +212,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  gemoji
   github-pages
   jemoji
 
