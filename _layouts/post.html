@@ -91,6 +91,25 @@ layout: default
 		<!-- disqus 评论框 end -->
 		{% endif %}
 		
+		<!-- 来必力City版安装代码 社会化评论系统 begin-->
+		<div id="lv-container" data-id="city" data-uid="MTAyMC8zMTEwNC83NjUz">
+			<script type="text/javascript">
+		   (function(d, s) {
+			   var j, e = d.getElementsByTagName(s)[0];
+
+			   if (typeof LivereTower === 'function') { return; }
+
+			   j = d.createElement(s);
+			   j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+			   j.async = true;
+
+			   e.parentNode.insertBefore(j, e);
+		   })(document, 'script');
+			</script>
+		<noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+		</div>
+		<!-- City版安装代码已完成 社会化评论系统 end-->
+		
 		<!-- GitTalk 社会化评论系统代码 begin -->
 		<div id="gitalk-container"></div>
 		<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
@@ -105,9 +124,9 @@ layout: default
 			admin: ['DerekKen'],
 			// facebook-like distraction free mode
 			distractionFreeMode: false,
-			//labels: ['Gitalk comments of DerekKen Blog','Gitalk','Gitalk Comments'],
+			labels: ['Gitalk comments of DerekKen Blog','Gitalk','Gitalk Comments'],
 			//language: 'en',
-			//perPage: 32, 
+			//perPage: 12, 
 		})
 		gitalk.render('gitalk-container')
 		</script>
@@ -140,24 +159,7 @@ layout: default
 		<!-- UY 友言评论框 END -->
 		<!-- {% endif %}  -->
 		
-		<!-- 来必力City版安装代码 社会化评论系统 begin-->
-		<div id="lv-container" data-id="city" data-uid="MTAyMC8zMTEwNC83NjUz">
-			<script type="text/javascript">
-		   (function(d, s) {
-			   var j, e = d.getElementsByTagName(s)[0];
 
-			   if (typeof LivereTower === 'function') { return; }
-
-			   j = d.createElement(s);
-			   j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-			   j.async = true;
-
-			   e.parentNode.insertBefore(j, e);
-		   })(document, 'script');
-			</script>
-		<noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
-		</div>
-		<!-- City版安装代码已完成 社会化评论系统 end-->
 		
 		</div>  
 
@@ -217,9 +219,6 @@ layout: default
 </article>
 
 
-
-
-	
 {% if site.disqus_username %}
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
