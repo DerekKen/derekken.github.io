@@ -108,28 +108,6 @@ header-img: "img/about-bg.jpg"
 </div>
 <!-- City版安装代码已完成 社会化评论系统 end -->
 
-<!-- GitTalk 社会化评论系统代码 begin -->
-<div id="gitalk-container"></div>
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-<script>
-const gitalk = new Gitalk({ 
-	clientID: '776e4dec8e0562dd50eb',
-	clientSecret: '15e4cd722d4c8c5caafa7b094a7298b83ee64ecf', 
-	// repo: 'DerekKen.github.io', -->
-	repo: 'DerekKen.blog.comments',
-	owner: 'DerekKen',
-	admin: ['DerekKen'],
-	// facebook-like distraction free mode
-	distractionFreeMode: false,
-	labels: ['Gitalk comments of DerekKen Blog','Gitalk','Gitalk Comments'],
-	language: 'en',
-	//perPage: 4, 
-})
-gitalk.render('gitalk-container')
-</script>
-<!-- GitTalk 社会化评论系统代码 end -->
-
 <!-- Gitment 社会化评论系统代码 begin-->
 			<!-- <div id="gitment-container"></div> -->
 			<!-- <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css"> -->
@@ -155,5 +133,26 @@ gitalk.render('gitalk-container')
 <!-- UY 友言评论代码 END -->
 
 
+<!-- GitTalk 社会化评论系统代码 begin -->
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script>
+const gitalk = new Gitalk({ 
+	clientID: '776e4dec8e0562dd50eb',
+	clientSecret: '15e4cd722d4c8c5caafa7b094a7298b83ee64ecf', 
+	// repo: 'DerekKen.github.io', -->
+	repo: 'DerekKen.blog.comments',
+	owner: 'DerekKen',
+	admin: ['DerekKen'],
+	// facebook-like distraction free mode
+	distractionFreeMode: false,
+	labels: ['Gitalk comments of DerekKen Blog','Gitalk','Gitalk Comments'],
+	language: 'en',
+	//perPage: 4, 
+})
+gitalk.render('gitalk-container')
+</script>
+<!-- GitTalk 社会化评论系统代码 end -->
 
 
