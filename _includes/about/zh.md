@@ -6,7 +6,8 @@
 
 [南开大学](http://www.nankai.edu.cn)本科在读，目前在[南开百度联合实验室](http://nbjl.nankai.edu.cn)实习，主要关注并行及高性能计算领域。潜心修炼中...
 
-一些作品和论文，👉 戳 [Portfolio](/portfolio)、[Github](http://github.com/DerekKen )。 
+[comment]: # (一些作品和论文，👉 戳 [Portfolio](/portfolio)、[Github](http://github.com/DerekKen )。) 
+一些作品，👉 戳 [Portfolio](/portfolio)。
 
 
 [comment]: # (##### Talks_言论)
