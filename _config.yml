@@ -33,9 +33,11 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Plugins of Gems
 # from PR#40, to support local preview for Jekyll 3.0
-plugins: [jekyll-paginate]
-gems:
-  - jemoji
+plugins: [
+    jekyll-paginate,
+    jemoji
+]
+
 
 
 # Markdown settings
