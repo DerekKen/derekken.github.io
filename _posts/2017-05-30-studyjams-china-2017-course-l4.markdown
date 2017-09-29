@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Android Firebase实践:LL4课程笔记 StudyJams China 2017"
+title:      "Android Firebase实践:L4课程笔记 StudyJams China 2017"
 subtitle:   "Android Firebase in Action:L4 Notes of StudyJams China 2017"
 date:       2017-05-30 01:01:00
 author:     "Derek Ken"
