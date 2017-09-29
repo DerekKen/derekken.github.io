@@ -98,15 +98,15 @@ header-img: "img/about-bg.jpg"
 const gitalk = new Gitalk({ 
 	clientID: '776e4dec8e0562dd50eb',
 	clientSecret: '15e4cd722d4c8c5caafa7b094a7298b83ee64ecf', 
-	  <!-- // repo: 'DerekKen.github.io', -->
+	// repo: 'DerekKen.github.io', -->
 	repo: 'DerekKen.blog.comments',
-	wner: 'DerekKen',
+	owner: 'DerekKen',
 	admin: ['DerekKen'],
 	// facebook-like distraction free mode
-	distractionFreeMode: false,
-	labels: ['Gitalk comments of DerekKen Blog','Gitalk','Gitalk Comments'],
-	language: 'en',
-	perPage: 32, 
+	distractionFreeMode: false
+	//labels: ['Gitalk comments of DerekKen Blog','Gitalk','Gitalk Comments'],
+	//language: 'en',
+	//perPage: 32, 
 })
 gitalk.render('gitalk-container')
 </script>
