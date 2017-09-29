@@ -156,5 +156,9 @@ friends: [
          title: "emoji supported,cheat-sheet here",
          href: "https://www.webpagefx.com/tools/emoji-cheat-sheet"       
     }
+    # { 可以在friends区域添加一些优秀的博客站
+        # title: "黄叔(su)叔(ru)",
+        # href: "https://user.qzone.qq.com/594403295"
+    # }
 
  ]
