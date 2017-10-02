@@ -150,13 +150,31 @@ friends: [
     
     {
          title: "粗神Cuppix的音乐工作室",
-         href: "https://music.163.com/#/user/home?id=253527733"
+         href:  "https://music.163.com/#/user/home?id=253527733"
+    },{
+         title: "佳辰师兄"
+         href:  "http://blog.jcix.top"
+    },{
+         title: "wulfric.me"
+         href:  "http://wulfric.me"
+    },{
+         title: "WorldHellooo’s Blog"
+         href:  "https://worldhellooo.github.io"
+    },{
+         title: "Chaway’s Blog"
+         href:  "http://chaway.github.io/"
+    },{
+         title: "清水河畔的xiaolei"
+         href:  "xiaolei.tech"
+    },{
+         title: "WARALD"
+         href:  "http://www.1point3acres.com/blogposts/"
     },{
          title: "本博客支持emoji，表情代码戳这里",
-         href: "https://www.webpagefx.com/tools/emoji-cheat-sheet"
+         href:  "https://www.webpagefx.com/tools/emoji-cheat-sheet"
     },{
          title: "emoji supported,cheat-sheet here",
-         href: "https://www.webpagefx.com/tools/emoji-cheat-sheet"       
+         href:  "https://www.webpagefx.com/tools/emoji-cheat-sheet"       
     }
     # { 可以在friends区域添加一些优秀的博客站
         # title: "黄叔(su)叔(ru)",
