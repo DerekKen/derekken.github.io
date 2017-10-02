@@ -58,10 +58,10 @@
   display: block;
   overflow: auto;
   height: 100%;
-  padding-top: 68px;
-  padding-bottom: 40px;
+  margin-top: 68px;
+  margin-bottom: 40px;
   margin-right: 1024px;
-  width: 168px;
+  width: 192px;
 }
 .side-catalog.fixed {
   position: fixed;
@@ -108,14 +108,14 @@
 .side-catalog .catalog-body .h2_nav,
 .side-catalog .catalog-body .h3_nav {
   margin-left: 0;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bold;
 }
 .side-catalog .catalog-body .h4_nav,
 .side-catalog .catalog-body .h5_nav,
 .side-catalog .catalog-body .h6_nav {
   margin-left: 10px;
-  font-size: 12px;
+  font-size: 13px;
 }
 .side-catalog .catalog-body .h4_nav a,
 .side-catalog .catalog-body .h5_nav a,
