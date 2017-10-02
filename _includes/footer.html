@@ -79,8 +79,19 @@
                     </li>
                     {% endif %}
                 </ul>
+
                 <p class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}<br />
+					
+					<!--不蒜子pv/uv统计 begin-->
+					<div class="post-meta" align="center" >
+							<font size="2px" color="black"><span id="busuanzi_value_site_pv"></span>&nbsp;<b>Views</b>, <span id="busuanzi_value_site_uv"></span>&nbsp;<b>Viewers</b>, <span id="busuanzi_value_page_pv"></span>&nbsp;<b>Hits</b><br/>
+							</font>
+					</div>
+					<!--异步js代码-->
+					<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+					<!--不蒜子pv/uv统计 end-->
+					
                     <!-- <br> -->
                     <!-- Theme Forked From <a href="http://huangxuan.me">Hux</a>  -->
                     <!-- <iframe -->
@@ -88,8 +99,10 @@
                         <!-- frameborder="0" scrolling="0" width="100px" height="20px" -->
                         <!-- src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" > -->
                     <!-- </iframe> -->
-					<font size="1.5px" color="black">为了更好的浏览体验，推荐使用<b>Chrome浏览器</b>，<b>或者</b>将页面缩放比例调至125%(<b>按住Ctrl(Cmd) + 滑动鼠标滚轮</b>)。<br />
-					For a better browsing experience, <b>Google Chrome</b> recommended, <b>or</b> try scaling the page up to 125%(<b>holding Ctrl(Cmd) + scrolling mousewheel</b>).</font>
+
+					
+					<!-- <font size="1.5px" color="black">为了更好的浏览体验，推荐使用<b>Chrome浏览器</b>，<b>或者</b>将页面缩放比例调至125%(<b>按住Ctrl(Cmd) + 滑动鼠标滚轮</b>)。<br /> -->
+					<!-- For a better browsing experience, <b>Google Chrome</b> recommended, <b>or</b> try scaling the page up to 125%(<b>holding Ctrl(Cmd) + scrolling mousewheel</b>).</font> -->
                 </p>
             </div>
         </div>
@@ -355,3 +368,4 @@ $("#gotop1").click(function(e) {
 
 </script>
 <!-- Back to Top 回到顶部按钮 end-->
+
