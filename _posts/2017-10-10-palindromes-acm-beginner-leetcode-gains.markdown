@@ -4,8 +4,8 @@ title:      "Leetcode练习笔记(1) Strings&Palindromes 字符串与回文"
 subtitle:   "Strings & Palindromes, gains of leetcode practice"
 date:       2017-10-11 15:50:00
 author:     "Derek Ken"
-header-img: "img/in-post/post_studyjams_china2017/course_l4.jpg"
-header-mask: 0.45
+header-img: "img/in-post/post_studyjams_china2017/leetcode-gains-01.jpg"
+header-mask: 0.64
 catalog:    true
 comment:    true
 tags:
@@ -14,7 +14,7 @@ tags:
     - Algorithms
 ---
 
-> 今天练了练《算法竞赛入门经典(第2版)》上的例题(实际上来自[UVa Online Judge](https://uva.onlinejudge.org/index.php))与[Leetcode](https://leetcode.com)上的问题。//觉得有必要总结一下收获。
+> 今天练了练《算法竞赛入门经典(第2版)》上的例题(实际上来自[UVa Online Judge](https://uva.onlinejudge.org/index.php))与[Leetcode](https://leetcode.com)上的问题。
 
 # **字符串与回文(strings and palindromes)练习总结**
 
@@ -124,7 +124,7 @@ int main()
 
 - 题目Problem
 
-[This problem on leetcode](https://leetcode.com/problems/valid-palindrome/description)
+[See This Problem on Leetcode](https://leetcode.com/problems/valid-palindrome/description)
 
 Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
 
@@ -225,7 +225,7 @@ public:
 
 - 题目Problem
 
-[This problem on leetcode](https://leetcode.com/problems/palindrome-number/description)
+[See This Problem on Leetcode](https://leetcode.com/problems/palindrome-number/description)
 
 Determine whether an integer is a palindrome. Do this without extra space.
 
