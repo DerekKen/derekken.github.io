@@ -10,10 +10,11 @@ catalog:    true
 comment:    true
 tags:
     - Algorithms
+    - Strings
     - ACM
 ---
 
-> 今天练了练字符替换的题目(来自[UVa Online Judge](https://uva.onlinejudge.org/index.php))，发现有一些零碎的知识点需要总结。
+> 今天练了练《算法竞赛入门经典(第2版)》上的字符串替换的题目(实际上来自[UVa Online Judge](https://uva.onlinejudge.org/index.php))，发现有一些零碎的知识点需要总结。
 
 # **字符替换题目练习总结**
 

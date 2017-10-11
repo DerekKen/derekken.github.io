@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Leetcode练习笔记(1) Strings&Palindromes 字符串与回文"
+title:      "Leetcode练习笔记(1) Strings & Palindromes 字符串与回文"
 subtitle:   "Strings & Palindromes,gains of leetcode practice, a novice's point of view"
 date:       2017-10-10 23:50:00
 author:     "Derek Ken"
@@ -11,6 +11,7 @@ comment:    true
 tags:
     - Leetcode
     - Palindromes
+    - Strings
     - Algorithms
     - OJ
     - ACM
