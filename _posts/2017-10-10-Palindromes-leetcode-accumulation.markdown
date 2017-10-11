@@ -11,7 +11,6 @@ comment:    true
 tags:
     - Leetcode
     - Palindromes
-    - Strings
     - Algorithms
     - OJ
     - ACM
@@ -247,7 +246,7 @@ There is a more generic way of solving this problem.
 1. 首先，负数一定不是回文，因为位于数字最左端的负号'-'不会跟右边的字符相等；
 2. 其次，最直接的想法的将数字转化为字符串，然后就可以像之前一样方便地直接比较处于对称位置的[i]与[len - 1 - i]处的字符是否相等；**但是**，本题要求不能使用额外的空间
 （不过“Do this without extra space.”的表述多少还是有些不准确，因为在函数中定义局部变量也可以被评判系统接受）。
-3. 可以考虑将数字翻转，然后与原数字比较，如果相等则该数字是回文数字；但是这样可能会有溢出的问题，比如2147483647(2^31 - 1)翻转后就会溢出。
+3. 可以考虑将数字翻转，然后与原数字比较，如果相等则该数字是回文数字；但是这样可能会有溢出的问题([Leetcode 7. Reverse Integer](https://leetcode.com/problems/reverse-integer/description/))，比如2147483647(2^31 - 1)翻转后就会溢出。
 4. 为了应对溢出的问题，可以只翻转一半的数字。那么如何知道已经翻转了一半呢？当数字的左半部分小于等于右半部分的时候，说明已经翻转了一半的数字。
 
 

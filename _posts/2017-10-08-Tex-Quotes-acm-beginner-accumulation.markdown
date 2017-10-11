@@ -10,7 +10,6 @@ catalog:    true
 comment:    true
 tags:
     - Algorithms
-    - Strings
     - ACM
 ---
 
