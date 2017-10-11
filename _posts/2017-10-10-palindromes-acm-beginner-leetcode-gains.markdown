@@ -2,7 +2,7 @@
 layout:     post
 title:      "Leetcode练习笔记(1) Strings&Palindromes 字符串与回文"
 subtitle:   "Strings & Palindromes, gains of leetcode practice"
-date:       2017-10-11 15:50:00
+date:       2017-10-10 23:50:00
 author:     "Derek Ken"
 header-img: "img/in-post/leetcode_notes/leetcode-gains-01.jpg"
 header-mask: 0.50
