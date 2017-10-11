@@ -1,31 +1,43 @@
 ---
 layout:     post
-title:      "Leetcode练习笔记(1) Strings&Palindromes 字符串与回文"
-subtitle:   "Strings & Palindromes, gains of leetcode practice"
-date:       2017-10-10 23:50:00
+title:      "Leetcode练习笔记(0) Tex Quotes&QWERT 字符替换"
+subtitle:   "Tex Quotes & QWERT, gains of coding practice, a novice's point of view"
+date:       2017-10-08 22:00:00
 author:     "Derek Ken"
-header-img: "img/in-post/leetcode_notes/leetcode-gains-01.jpg"
+header-img: "img/in-post/coding_practice_notes/practice-gains-00.jpg"
 header-mask: 0.50
 catalog:    true
 comment:    true
 tags:
-    - Leetcode
-    - Palindromes
     - Algorithms
+    - ACM
 ---
 
-> 今天练了练《算法竞赛入门经典(第2版)》上的例题(实际上来自[UVa Online Judge](https://uva.onlinejudge.org/index.php))与[Leetcode](https://leetcode.com)上的问题。
+> 今天练了练字符替换的题目(来自[UVa Online Judge](https://uva.onlinejudge.org/index.php))，发现有一些零碎的知识点需要总结。
 
-# **字符串与回文(strings and palindromes)练习总结**
+# **字符替换题目练习总结**
 
-## **回文词(Palindromes, UVa401)**
+## **Tex Quotes(Tex中的引号, UVa 272)**
+
+> Tex中的引号：连按两次“ESC”键下方的按键，输入左双引号“``”；连按“Enter”键左边的按键两次，输入右双引号“''”。
 
 - 题目Problem
 
-输入一个字符串，判断它是否为回文串以及镜像串。输入字符串保证不含数字0。所谓
-回文串，就是反转以后和原串相同，如abba和madam。所有镜像串，就是左右镜像之后和原
-串相同，如2S和3AIAE。注意，并不是每个字符在镜像之后都能得到一个合法字符。在本题
-中，每个字符的镜像如图1所示（空白项表示该字符镜像后不能得到一个合法字符）。
+在TeX中，左双引号是“``”，右双引号是“''”。输入一篇包含双引号的文章，你的任务是
+把它转换成TeX的格式。
+
+样例输入：
+"To be or not to be," quoth the Bard, "that
+is the question".
+
+样例输出：
+\`\`To be or not to be,'' quoth the Bard, \`\`that
+is the question''.
+
+
+
+
+
 
 ![1](http://owsep4p7v.bkt.clouddn.com/blog/posts/img/acm-beginner-mirrored-chars-3-3.jpg)
 <div style="text-align:center"><b>Fig1.</b> alphanumeric镜像字符表 </div>
@@ -53,7 +65,7 @@ ISAPALINILAPASI -- is a regular palindrome.
 
 ATOYOTA -- is a mirrored palindrome.
 
-- 分析Analysis
+- 分析 Analysis
 
 由于题干中说明了输入不包含空白字符，所以可以使用scanf进行输入，不必担心其“吞掉”space、tab、CRLF(LF)等。
 可以用一个常量数组来存储镜像字符("Reverse"一列下的字符，没有的需要用空格代替)，这样能够简化代码。
