@@ -66,7 +66,7 @@ ATOYOTA -- is a mirrored palindrome.
 
 - 代码 Code
 
-[在Github上获取代码/On Github](https://github.com/DerekKen/Algorithms-Coding-Practice/blob/master/practice/Palindromes-UVa401.c)
+[On Github](https://github.com/DerekKen/Algorithms-Coding-Practice/blob/master/practice/Palindromes-UVa401.c)
 
 <div style="text-align:center"><b>Prog1.</b> Palindromes-UVa401 </div>
 
@@ -117,7 +117,7 @@ int main()
 
 
 
-- 提示 Tips
+- 提示 Hints
 
 > 灵活运用常量数组可以起到简化代码的作用。定义常量数组时不需要指定大小，编译阶段会进行计算，不影响代码执行速度。
 
@@ -126,7 +126,7 @@ int main()
 
 - 题目 Problem
 
-[See This Problem on Leetcode](https://leetcode.com/problems/valid-palindrome/description)
+[On Leetcode](https://leetcode.com/problems/valid-palindrome/description)
 
 Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
 
@@ -227,7 +227,7 @@ public:
 
 - 题目 Problem
 
-[See This Problem on Leetcode](https://leetcode.com/problems/palindrome-number/description)
+[On Leetcode](https://leetcode.com/problems/palindrome-number/description)
 
 Determine whether an integer is a palindrome. Do this without extra space.
 
