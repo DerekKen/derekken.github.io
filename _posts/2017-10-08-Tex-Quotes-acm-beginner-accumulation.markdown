@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Leetcode练习笔记(0) Tex Quotes & WERTYU 字符替换"
+title:      "《算法竞赛入门经典（第二版）》练习笔记(0) Tex Quotes & WERTYU 字符替换"
 subtitle:   "Tex Quotes & WERTYU, gains of coding practice, a novice's point of view"
 date:       2017-10-08 22:00:00
 author:     "Derek Ken"
