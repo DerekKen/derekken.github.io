@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "《算法竞赛入门经典（第二版）》练习笔记(0) Tex Quotes & WERTYU 字符替换"
-subtitle:   "Tex Quotes & WERTYU. Gains of coding practice, a novice's point of view"
+subtitle:   "Tex Quotes & WERTYU. Gains of coding practice, a novice's point of view."
 date:       2017-10-08 22:00:00
 author:     "Derek Ken"
 header-img: "img/in-post/coding_practice_notes/practice-gains-00.jpg"
@@ -21,7 +21,7 @@ tags:
 
 > Tex中的引号：连按两次“ESC”键下方的按键，输入左双引号“``”；连按“Enter”键左边的按键两次，输入右双引号“''”。
 
-- 题目 Problem
+### 题目 Problem
 
 在TeX中，左双引号是“``”，右双引号是“''”。输入一篇包含双引号的文章，你的任务是
 把它转换成TeX的格式。
@@ -34,7 +34,7 @@ is the question".
 \`\`To be or not to be,'' quoth the Bard, \`\`that
 is the question''.
 
-- 分析 Analysis
+### 分析 Analysis
 1. 对于本题，读取输入不能使用scanf("%s")来读取字符串，因为scanf这个函数遇到空白符(space、Tab、LF以及CRLF等)便会停下来；
 虽然再次调用scanf时可以顺利读取下一段字符串，但是无法知道这之间有多少个空白符。
 
@@ -45,7 +45,7 @@ is the question''.
 
 2. 另一个问题在于判断一个引号是左引号还是右引号，方法其实很简单，用一个标志变量的奇偶性即可判断。
 
-- 提示 Hints
+### 提示 Hints
 
 > 使用fgetc(fin)可以从打开的文件fin中读取一个字符。一般情况下应当在检查它不是EOF后再将其转换成char值。
 从标准输入读取一个字符可以用getchar，它等价于fgetc(stdin)。
@@ -68,7 +68,7 @@ buf足够存放下文件的一行内容。除了在文件结束前没有遇到�
 > C语言中的gets(s)存在缓冲区溢出漏洞，不推荐使用。在C11标准里，该函数已被正式删除。
 
 
-- 代码 Code
+### 代码 Code
 
 [On Github](https://github.com/DerekKen/Algorithms-Coding-Practice/blob/master/practice/Tex-Quotes-Uva272.c)
 
@@ -88,7 +88,7 @@ int main()
 }
 ```
 
-- 总结与收获Gains
+### 反思总结 Gains&Reflections
 
 本题可以边读边处理，于是选择使用getchar函数，标志变量quote在每次遇到引号时变换奇偶性，以判断当前是左引号还是右引号。
 三目运算符":?"的使用可以使代码更加简洁，同时不失可读性。
@@ -96,7 +96,7 @@ int main()
 
 ## **WERTYU(WERTYU, UVa 10082)**
 
-- 题目 Problem
+### 题目 Problem
 
 把手放在键盘上时，稍不注意就会往右错一
 位。这样，输入Q会变成输入W，输入J会变成输
@@ -114,14 +114,14 @@ O S, GOMR YPFSU/
 样例输出：
 I AM FINE TODAY
 
-- 分析 Analysis
+### 分析 Analysis
 
 1. 与上一题类似，本题也可以边读边处理，因此getchar适合用于读取输入，至于输出，用putchar最简洁。
 
 2. 如何处理输入呢，一种方法是使用if或者switch语句进行字符的映射，比如if(c == '1') putchar('`')。但这样的实现方式会导致代码膨胀，
 看上去十分臃肿，而且很有可能写错字符间的对应关系。更简洁的方法是使用常量数组，如下所示。
 
-- 代码 Code
+### 代码 Code
 
 [On Github](https://github.com/DerekKen/Algorithms-Coding-Practice/blob/master/practice/WERTYU-UVa10082.c)
 
@@ -150,7 +150,7 @@ int main()
 **注意**反斜杠'\'在常量数组中需要进行转义（“\\\”）。
 
 
-- 提示 Hints
+### 提示 Hints
 
 > 善用常量数组往往能简化代码。定义常量数组时无须指明大小，编译器会计算。
 

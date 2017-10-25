@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Leetcode练习笔记(0) Strings & Palindromes 字符串与回文"
-subtitle:   "Strings & Palindromes. Gains of leetcode practice, a novice's point of view"
+subtitle:   "Strings & Palindromes. Gains of leetcode practice, a novice's point of view."
 date:       2017-10-10 23:50:00
 author:     "Derek Ken"
 header-img: "img/in-post/coding_practice_notes/practice-gains-01.jpg"
@@ -22,7 +22,7 @@ tags:
 
 ## **回文词(Palindromes, UVa401)**
 
-- 题目 Problem
+### 题目 Problem
 
 输入一个字符串，判断它是否为回文串以及镜像串。输入字符串保证不含数字0。所谓
 回文串，就是反转以后和原串相同，如abba和madam。所有镜像串，就是左右镜像之后和原
@@ -55,7 +55,7 @@ ISAPALINILAPASI -- is a regular palindrome.
 
 ATOYOTA -- is a mirrored palindrome.
 
-- 分析 Analysis
+### 分析 Analysis
 
 由于题干中说明了输入不包含空白字符，所以可以使用scanf进行输入，不必担心其“吞掉”space、tab、CRLF(LF)等。
 可以用一个常量数组来存储镜像字符("Reverse"一列下的字符，没有的需要用空格代替)，这样能够简化代码。
@@ -64,7 +64,7 @@ ATOYOTA -- is a mirrored palindrome.
 为往左数第i个字符，与左边的字符对应。类似地，借助常量数组，可以方便地判断一个字符是否为镜像字符。
 
 
-- 代码 Code
+### 代码 Code
 
 [On Github](https://github.com/DerekKen/Algorithms-Coding-Practice/blob/master/practice/Palindromes-UVa401.c)
 
@@ -106,7 +106,7 @@ int main()
 }
 ```
 
-- 总结与收获 Gains
+### 反思总结 Gains&Reflections
 
 函数get_rev()返回传入字符的镜像字符，头文件<ctype.h>中的函数isalpha()可以判断传入的字符是否为英文字母。
 由于常量字符数组rev是按照A-Z、1-9的顺序进行初始化的，所以ch - ’A‘得到的结果就是字符ch的镜像位于数组rev的偏移(下标)；

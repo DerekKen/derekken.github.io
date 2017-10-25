@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Leetcode练习笔记(1) Reverse Integer 反转数字"
-subtitle:   "Leetcode No.7 Reverse Integer. Gains of leetcode practice, a novice's point of view"
+title:      "Leetcode练习笔记(1) Reverse Integer 翻转数字"
+subtitle:   "Leetcode No.7 Reverse Integer. Gains of leetcode practice, a novice's point of view."
 date:       2017-10-17 17:00:00
 author:     "Derek Ken"
 header-img: "img/in-post/coding_practice_notes/practice-gains-02.jpg"
@@ -17,7 +17,7 @@ tags:
 
 > Practice makes perfect.
 
-# **反转数字**
+# **翻转数字**
 
 ## **Leetcode 7. Reverse Number**
 
@@ -48,9 +48,9 @@ The input is assumed to be a 32-bit signed integer. Your function should return 
 
 1. 对于负数，统一变成正数后再处理。
 
-2. 首先考虑反转后溢出的问题，题目中的"overflow"应该包含了上溢与下溢(underflow)两种情况。
+2. 首先考虑翻转后溢出的问题，题目中的"overflow"应该包含了上溢与下溢(underflow)两种情况。
 32位有符号整数的范围为(-2^31) ~ (2^31 - 1)，同时注意到发生溢出时数的符号会发生改变，可以利用这一点判断是否发生溢出。
-[Update]注意到9646324351反转后溢出，但是不会改变符号!!
+[Update]注意到9646324351翻转后溢出，但是不会改变符号!!
 有效的解决办法：设置一个阈值threshold (2^31 - 1) / 10，在执行rev_num * 10前判断rev_num是否大于threshold。
 
 [//]: # (This may be the most platform independent comment) 但是这样还不完备(删除)/完备的？， 假如rev_num恰好等于214748364，此时是否可能发生溢出呢？设原数的最高位为x，则x不可能为8或9(原数形如x46384721)，实际上x只能等于1，否则就已经发生溢出了(如果x大于1，则原数一定大于2^31 - 1 = 2147483647)。
@@ -64,10 +64,10 @@ The input is assumed to be a 32-bit signed integer. Your function should return 
 
 综上可知，这种判断方法在逻辑上是完备的。
 
-3. 如果一个整数的最后一位数字为0，那么反转后忽略处于高位的那些无效的‘0’；例如，100反转后返回1。
+3. 如果一个整数的最后一位数字为0，那么翻转后忽略处于高位的那些无效的‘0’；例如，100翻转后返回1。
 
 4. 通过mod 10的操作首先获得原数字num的个位，赋给变量rev_num，然后num /= 10去掉最后一位并再次mod 10获取十位上的数字，
-即(num % 10 + rev_num * 10)，这样即可获取num最后两位数字反转后的结果；重复之前的步骤，直到 num = 0为止。
+即(num % 10 + rev_num * 10)，这样即可获取num最后两位数字翻转后的结果；重复之前的步骤，直到 num = 0为止。
 
 按照如上思路写出的代码如下：
 
@@ -132,7 +132,7 @@ public:
 
 <div style="text-align:center"><b>Prog. 2</b> 8ms C++ Sample Code </div>
 
-### 反思总结 Reflections
+### 反思总结 Gains&Reflections
 
 回过头来看，自己写的溢出检测流程冗长，其实只要运用好“如果一个数发生了溢出，那么便一定不会等于之前的值”这个简单却很实用的性质即可。
 
