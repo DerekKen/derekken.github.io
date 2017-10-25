@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "《算法竞赛入门经典（第二版）》练习笔记(0) Tex Quotes & WERTYU 字符替换"
-subtitle:   "Tex Quotes & WERTYU. Gains of coding practice, a novice's point of view."
+subtitle:   "Problems on Uva: Tex Quotes & WERTYU. Gains of coding practice, a novice's point of view."
 date:       2017-10-08 22:00:00
 author:     "Derek Ken"
 header-img: "img/in-post/coding_practice_notes/practice-gains-00.jpg"
