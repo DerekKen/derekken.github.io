@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Leetcode练习笔记(0) Strings & Palindromes 字符串与回文"
-subtitle:   "Strings & Palindromes,gains of leetcode practice, a novice's point of view"
+subtitle:   "Strings & Palindromes. Gains of leetcode practice, a novice's point of view"
 date:       2017-10-10 23:50:00
 author:     "Derek Ken"
 header-img: "img/in-post/coding_practice_notes/practice-gains-01.jpg"
