@@ -1,0 +1,107 @@
+		@media screen and (min-width: 768px) {
+            .dropdown-menu {
+				position:relative;
+                float: none;
+                font-size: 20px;
+                width: 70%;
+                margin: 0 15%;
+            }
+
+			.cb-search-tool ul{
+                 width: 70% ;
+                 white-space:nowrap;
+				 position:fixed;
+                 overflow:hidden;
+                 text-overflow: ellipsis;
+             }
+
+
+            .cb-search-content {
+                width: 70%;
+                margin: 0 15%;
+                position: absolute;
+                top: 13%;
+                left: auto;
+                right: auto;
+                font-size: 22px;
+                height: 50px;
+                background-color: #eee;
+                color: black;
+                opacity: 1.0;
+			  /* opacity: 0.5;   */
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .dropdown-menu {
+				position:relative;
+                float: none;
+                font-size: 20px;
+                width: 96%;
+                margin: 0 2%;
+            }
+			.cb-search-tool ul{
+				width: 96% ;
+				white-space:nowrap; 
+				position:fixed;
+				overflow:hidden; 
+				text-overflow: ellipsis;
+			}
+
+            .cb-search-content {
+                width: 96%;
+                margin: 0 2%;
+                position: absolute;
+                top: 10%;
+                left: auto;
+                right: auto;
+                font-size: 22px;
+                height: 50px;
+                background-color: #eee;
+                color: black;
+                opacity: 1.0;
+            }
+        }
+		
+		
+#cb-search-btn{
+    position: fixed;
+	right: 64px;
+    bottom: 128px;
+    cursor: pointer;
+    z-index: 99;
+}
+
+#cb-search-btn:hover {
+    animation: rubberBand 0.75s;
+}
+  
+@keyframes rubberBand {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  
+  65% {
+    transform: scale3d(.95, 1.05, 1);
+  }
+  
+  75% {
+    transform: scale3d(1.05, .95, 1);
+  }
+  
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}

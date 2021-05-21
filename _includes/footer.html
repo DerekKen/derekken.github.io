@@ -79,8 +79,10 @@
                     </li>
                     {% endif %}
                 </ul>
+
                 <p class="copyright text-muted">
-                    Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
+                    Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}<br />
+								
                     <!-- <br> -->
                     <!-- Theme Forked From <a href="http://huangxuan.me">Hux</a>  -->
                     <!-- <iframe -->
@@ -88,26 +90,36 @@
                         <!-- frameborder="0" scrolling="0" width="100px" height="20px" -->
                         <!-- src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" > -->
                     <!-- </iframe> -->
+
+					
+					<!-- <font size="1.5px" color="black">为了更好的浏览体验，推荐使用<b>Chrome浏览器</b>，<b>或者</b>将页面缩放比例调至125%(<b>按住Ctrl(Cmd) + 滑动鼠标滚轮</b>)。<br /> -->
+					<!-- For a better browsing experience, <b>Google Chrome</b> recommended, <b>or</b> try scaling the page up to 125%(<b>holding Ctrl(Cmd) + scrolling mousewheel</b>).</font> -->
                 </p>
+				<!--不蒜子pv/uv统计 begin-->
+				<div class="post-meta" style="text-align:center" >
+					<font size="2px" color="black"><span id="busuanzi_value_site_pv"></span>&nbsp;<b>Total Views</b>, <span id="busuanzi_value_site_uv"></span>&nbsp;<b>Viewers</b>, <span id="busuanzi_value_page_pv"></span>&nbsp;<b>Hits on This Single Page</b><br/>
+					</font>
+				</div>
+
             </div>
         </div>
     </div>
 </footer>
 
 <!-- jQuery -->
-<script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/derek_blog.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <!-- Currently, only navbar scroll-down effect at desktop still depends on this -->
-<script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/derek_blog.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="{{ "/js/hux-blog.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/derek_blog.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Service Worker -->
 {% if site.service-worker %}
-<script src="{{ "/js/snackbar.js " | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/sw-registration.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/derek_blog.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/derek_blog.min.js " | prepend: site.baseurl }}"></script>
 {% endif %}
 
 <!-- async load function -->
@@ -167,38 +179,64 @@
 
 <!-- Google Analytics -->
 {% if site.ga_track_id %}
+<!-- <script> -->
+    <!-- // dynamic User by Hux -->
+    <!-- var _gaId = '{{ site.ga_track_id }}'; -->
+    <!-- var _gaDomain = '{{ site.ga_domain }}'; -->
+
+    <!-- // Originial -->
+    <!-- (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ -->
+    <!-- (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), -->
+    <!-- m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) -->
+    <!-- })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); -->
+
+    <!-- ga('create', _gaId, _gaDomain); -->
+    <!-- ga('send', 'pageview'); -->
+<!-- </script> -->
+
+<!--Google Analytics代码 BEGIN-->
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106767476-1"></script>
 <script>
-    // dynamic User by Hux
-    var _gaId = '{{ site.ga_track_id }}';
-    var _gaDomain = '{{ site.ga_domain }}';
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
 
-    // Originial
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', _gaId, _gaDomain);
-    ga('send', 'pageview');
+  gtag('config', 'UA-106767476-1');
 </script>
+<!--Google Analytics代码 END-->	
 {% endif %}
 
 
 <!-- Baidu Tongji -->
 {% if site.ba_track_id %}
-<script>
-    // dynamic User by Hux
-    var _baId = '{{ site.ba_track_id }}';
 
-    // Originial
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?" + _baId;
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
+<!-- <script> -->
+    <!-- // dynamic User by Hux -->
+    <!-- var _baId = '{{ site.ba_track_id }}'; -->
+
+    <!-- // Originial -->
+    <!-- var _hmt = _hmt || []; -->
+    <!-- (function() { -->
+      <!-- var hm = document.createElement("script"); -->
+      <!-- hm.src = "//hm.baidu.com/hm.js?" + _baId; -->
+      <!-- var s = document.getElementsByTagName("script")[0]; -->
+      <!-- s.parentNode.insertBefore(hm, s); -->
+    <!-- })(); -->
+<!-- </script> -->
+
+<!--百度访问分析代码 BEGIN-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+   <!-- // static user id -->
+  hm.src = "https://hm.baidu.com/hm.js?96c664732516db4d16de28619ed4d523";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
 </script>
+<!--百度访问分析代码 END-->	
 {% endif %}
 
 
@@ -249,3 +287,102 @@
     });
 </script>
 {% endif %}
+
+<!-- Search jekyll-search 搜索插件 begin-->
+<!-- From /search/cb-footer-add.html-->
+<div class="cb-search-tool" style="position: fixed; top: 0px ; bottom: 0px; left: 0px; right:  0px;
+      opacity: 0.95; background-color: #111111; z-index: 9999; display: none;">
+    <input type="text" class="form-control cb-search-content" id="cb-search-content" style="position: fixed; top: 60px" placeholder="title|文章标题 date|日期 tags|标签" >
+
+    <div style="position: fixed; top: 16px; right: 16px;">
+        <img src="/search/img/cb-close.png"  id="cb-close-btn"/>
+    </div>
+</div>
+
+<!-- <div style="position: fixed; right: 64px; top: 512px;"> -->
+    <img src="/search/img/cb-search.png"  id="cb-search-btn"  title="双击ctrl试一下"/>
+<!-- </div> -->
+
+<link rel="stylesheet" href="{{ "/search/css/cb-search.css" | prepend: site.baseurl }}">
+
+
+<script data-cfasync="false" src="{{ "/search/js/bootstrap3-typeahead.min.js" | prepend: site.baseurl }}"></script>
+<script data-cfasync="false" src="{{ "/search/js/cb-search.js" | prepend: site.baseurl }}"></script>
+
+<!-- jQuery 应该已经引入了-->
+<!-- <script src="//cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script> -->
+
+<!-- Bootstrap Core JavaScript 应该已经引入了-->
+<!-- <script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+<!-- Search jekyll-search 搜索插件 end-->
+
+<!-- Back to Top 回到顶部按钮 begin-->
+<!-- 返回顶部小火箭的HTML结构如下： -->
+<div id="shangxia2" style="position: fixed; right: 103px; top: 640px;">
+<!-- little-rocket.css：使用的id为gotop1，下面的初始化代码也使用的是gotop1 -->
+	<span id="gotop1">
+		<img src="/img/huojian.svg" width="48" height="48">
+		<!-- <img src="img/huojian.svg" width="48" height="48"> -->
+	</span>
+</div>
+<!-- Back to Top Little Rocket CSS 返回顶部小火箭 -->
+<link rel="stylesheet" href="{{ "/css/little-rocket.css" | prepend: site.baseurl }}">
+<!-- 基于gsap 引入相关js代码 -->
+<!-- 在别处已经引用了jquery.min.js的代码 <script src="js/jquery.min.js"></script> -->
+<script data-cfasync="false" src="http://cdn.bootcss.com/gsap/1.19.0/TweenMax.min.js"></script>
+<script data-cfasync="false" src="http://cdn.bootcss.com/gsap/1.19.0/plugins/ScrollToPlugin.min.js"></script>
+<!-- 在页面DOM元素加载完毕之后，通过下面的方法来初始化该返回顶部特效。 -->
+<script>
+// 返回顶部，绑定gotop1图标和gotop2文字事件
+$("#gotop1").click(function(e) {
+   TweenMax.to(window, 0.64, {scrollTo:0, ease: Expo.easeInOut});
+   var huojian = new TimelineLite();
+    huojian.to("#gotop1", 1, {rotationY:720, scale:0.6, y:"+=40", ease:  Power4.easeOut})
+    .to("#gotop1", 1, {y:-1000, opacity:0, ease:  Power4.easeOut}, 0.6)
+    .to("#gotop1", 1, {y:0, rotationY:0, opacity:1, scale:1, ease: Expo.easeOut, clearProps: "all"}, "1.4");
+});
+
+// 默认速度
+//$("#gotop6").click(function() {
+//TweenMax.to(window, 1, {scrollTo:0});
+//});
+
+
+// 弹跳球式滚动底部 .box2是要滚动地方的id或者锚点
+// $("#gotop5").click(function() {
+//TweenMax.to(window, 2, {scrollTo:".box2", ease:Bounce.easeOut});
+//});
+ 
+// 以1秒慢快慢的速度滚动顶部
+//$("#gotop3").click(function() {
+//TweenMax.to(window, 1, {scrollTo:0, ease:Expo.easeInOut});
+// });
+
+// 以1.5秒快慢快的速度滚动顶部
+//$("#gotop4").click(function() {
+//TweenMax.to(window, 1.5, {scrollTo:0, ease:SlowMo.ease.config(0.7, 0.7, false)});
+//});
+
+</script>
+<!-- Back to Top 回到顶部按钮 end-->
+
+
+<!--不蒜子pv/uv统计 异步js代码-->
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!--不蒜子pv/uv统计 end-->
+
+<!--百度内容自动推送js代码-->
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https'){
+   bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else{
+  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>

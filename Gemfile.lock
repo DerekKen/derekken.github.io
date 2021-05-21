@@ -212,7 +212,9 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  gemoji
   github-pages
+  jemoji
 
 BUNDLED WITH
    1.15.4
